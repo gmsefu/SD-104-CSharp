@@ -6,8 +6,10 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The Matrix Has you...");
+            string s = "The Matrix Has you...";
+            Console.WriteLine("the statement is {0}",s);
             Console.ReadLine();
+
 
         }
     }
