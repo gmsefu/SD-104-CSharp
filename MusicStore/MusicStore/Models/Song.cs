@@ -17,6 +17,7 @@ namespace MusicStore.Models
         [DisplayFormat(DataFormatString ="{0:yyyy-MM-dd}",ApplyFormatInEditMode =true)]
         public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; }
+        [Display(Name ="Album Cover")]
         public string ImagePath { get; set; }
         public decimal Price { get; set; }
     }
