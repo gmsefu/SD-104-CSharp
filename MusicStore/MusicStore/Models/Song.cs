@@ -20,5 +20,7 @@ namespace MusicStore.Models
         [Display(Name ="Album Cover")]
         public string ImagePath { get; set; }
         public decimal Price { get; set; }
+        public bool IsActive { get; set; }
+        public bool IsFeatured { get; set; }
     }
 }

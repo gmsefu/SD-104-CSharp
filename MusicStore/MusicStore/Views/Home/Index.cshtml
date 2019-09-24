@@ -1,8 +1,28 @@
-﻿@{
+﻿@model IEnumerable<MusicStore.Models.Song>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>What's New</h2>
+        <ul>
+            <li>Blah Blah</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Join Our Mailing List</h2>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Billboard</h2>
+        <ul>
+            <li><a href="http://Billboard.com">Hot 100</a></li>
+        </ul>
+    </div>
 </div>
